@@ -1,0 +1,423 @@
+
+<html>
+    <head>
+        <style> 
+        body{
+            margin: 100%px;
+
+        }
+        #outer
+        {
+            min-height:1000px;
+            width:100%;
+            //border: 0px solid black;
+            padding-left: 0px;
+          //background: url(asd.jpg);
+          
+        }
+        #top
+        {
+            height:35px;
+            width:100%;
+            background:#252d38;
+            float:left;
+        }
+        #header
+        {
+            height:6px;
+            width:100%;
+           border: 2px solid greenyellow;
+        }
+        #logo
+        {
+            height: 40px;
+            width:200px;
+            padding-left:5px;
+            box-sizing:border-box;
+        }
+        #menu
+        {
+            height: 60px;
+            width:1100px;
+            float: left;
+           //background:yellow ;
+        }
+        
+        #slider
+        {
+            height:550px;
+            width:100%;
+            background:url('asd.jpg');
+            background-size:cover;
+            background-attachment:fixed;
+            animation-name:slider;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+        }
+        #slider:hover
+        {
+            animation-play-state:paused;
+        }
+        #servises
+        {
+            height:350px;
+            width:100%;
+            padding:0px 150px;
+            box-sizing:border-box;
+            background:#e8e8ff;
+        }
+        .s
+        {
+            height: 350px;
+            width:20%;
+            float: left;
+            box-sizing: border-box;
+            background:white;
+            margin:0px 15px;
+          //border: 1px solid greenyellow;
+            transform:translatey(-100px);
+            padding:40px 30px;
+            font-size:22px;
+            text-align:justify;
+        }
+        .bg
+        {
+            background:#34384f;
+            color: white;
+        }
+        .tpart
+        {
+            height: 35px;
+            width:33%;
+            float: left;
+            border: 1px solid white;
+            box-sizing: border-box;
+            color: white;
+            text-align: center;
+            line-height: 35px;
+            font-size: 15px;
+        }
+        nav ul
+        {
+            list-style:none;
+        }
+        nav ul li
+        {
+            height: 40px;
+            width: 120px;
+          //background: pink;
+            text-align: center;
+            line-height: 40px;
+            font-weight:bold;
+            font-size: 17px;
+            float: left;
+            color: #252d38;
+            transform: translateY(-7px);
+            margin-left:25px;
+            border-radius:5px;
+        }
+        nav ul li:hover
+        {
+            background:#80c52d;
+            color:black;
+            transition: all ease 2s;
+        }
+        @keyframes slider
+        {
+            0%{
+            background: url('natur.webp');
+            background-size: cover;
+            background-attachment: fixed;
+            } 
+            50%{
+            background: url('natur1.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            }
+            100%{
+            background: url('natur2.webp');
+            background-size: cover;
+            background-attachment: fixed;
+            }
+        }
+        #inner
+        {
+            height: 550px;
+            width: 100%;
+           //background: rgba(0,0,0,3);
+            font-size: 70px;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+        #aboutus
+        {
+            min-height: 200px;
+            width:100%;
+            font-size:26px ;
+            //padding: 50px 250px ;
+            box-sizing: border-box;
+            //text-align: justify;
+            text-align:center;
+        }
+        #gallery
+        {
+            min-height: 300px;
+            width: 100%;
+            background: #e8e8ff;
+        }
+        .row
+            {
+                height:300px;
+                width: 100%;
+            }
+            .col
+            {
+                height:300px;
+                width:280px;
+                background:white; 
+                float:left;
+                border:1px solid black;
+                margin:25px;
+                padding:25px;
+                box-sizing:border-box;
+                transition:all ease 2s;
+            }.col img
+            {
+                height:250px;
+                width:200px;
+
+            }
+            .col:hover
+            {
+                filter:grayscale(10%);
+                transform: scale(1.1);
+                transition:all ease 2s;
+                box-shadow:0px 0px 10px 2px black inset;
+            }
+        #contactus
+        {
+            min-height: 500px;
+            width: 100%;
+            background: #e8e8ff;
+            padding: 50px 150px;
+            box-sizing: border-box;
+        
+        }
+        #ufooter
+        {
+            min-height: 300px;
+            width: 100%;
+            background: #2a2d2f;
+        }
+        #bfooter
+        {
+            min-height: 50px;
+            width: 100%;
+            background:#6b8780;
+            float:left;
+        }
+        
+        #gmap
+        {
+            min-height:400px;
+            width:70%;
+            background:whitesmoke;
+            float:left;
+          
+        }
+        #con
+        {
+            min-height: 400px;
+            width: 30%;
+            background:#80c52d;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .txt
+        {
+            height: 45;
+            width: 100%;
+            border: none;
+            margin-bottom:10px;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        .txta
+        {
+            height: 60px;
+            width:100%px;
+            border:none;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        .btn
+        {
+            height: 45px;
+            width: 100%;
+            border: none;
+            background: black;
+            color: white;
+        }
+        .btn:hover
+        {
+           background:gold;
+           transition: 2s;
+           filter:grayscale(10%);
+                transform: scale(1.1);
+                transition:all ease 2s;
+                box-shadow:0px 0px 10px 2px black inset;
+        }
+        ::placeholder
+        {
+            font-size: 15px;
+            color: green;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="top col-sm-12">
+                <div class="tpart col-sm-4">Call US : +918528118190 || +917376159597</div>
+                <div class="tpart col-sm-4">AN ISO Cesrtified software company</div>
+                <div class="tpart col-sm-4">Mail US: vvikaskumar393@gmail.com</div>
+            </div>
+        
+            <div id="header">
+                <div id="logo">
+                    <img src="img/image12.png" height="60px"/>
+                </div>
+                <div id="menu">
+                    <nav>
+                        <ul>
+                            <a href="#"><li>HOME</li></a>
+                            <a href="#aboutus"><li>About us</li></a>
+                            <a href="#contactus"><li>Contact us</li></a>
+                            <a href="#Register"><li>Resister</li></a>
+                            <a href="#gallery"><li>Gallery</li></a>
+                            <a href="#login"><li>Login</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="slider">
+                <div id="inner">welcome to<b style="color:#80c52d;">TECHPILE</b><br/>
+                <p style="font-size:20px;">vikas bind welcome to techpile our country is india..</p>
+                <a href="#register" style="font-size:22px;border:5px double #80c52d;color:#80c52d;text-decoration:none;padding:10px 25px;border-radius:50px;">Resister Now</a>
+                </div>
+            </div>
+            <div id="servises">
+                <div class="s bg">
+                    <center><img src="a.png" height="50px"/></center><br/>
+                        <b>heading 1</b>
+                        <p>vikas bind wellcome to techpile our country is india</p>                    
+                </div>  
+                <div class="s bg">
+                    <center><img src="b.png" height="50px"/></center><br/>
+                        <b>heading 2</b>
+                        <p>vikas bind wellcome to techpile our country is india</p>
+                </div>
+                <div class="s bg">
+                    <center><img src="c.png" height="50px"/></center><br/>
+                        <b>heading 3</b>
+                        <p>vikas bind wellcome to techpile our country is india </p>
+                </div>
+                <div class="s bg"> 
+                    <center><img src="d.png" height="50px"/></center><br/>
+                    <b>heading 4</b>
+                    <p>vikas bind wellcome to techpile our country is india </p>
+                </div>
+            </div>
+        <div id="aboutus">
+            <div style="font-size:30px;">ABOUT<b style="color:greenyellow;">US</b></div>
+           <h4><b style="color:#80c52d">To obtain a position to allow me to utilized my
+             technical skills,willingness in making an organization successfully
+            He has done an excellent job during her engagement with the Software
+             Development & Testing Divisionof the company. He has completed her 
+             project duringthe training tenure. Her performance has been good and satisfactory.
+
+
+            </b></h> 
+        </div>    
+            <div id="gallery">
+                <div class="row">
+                    <div class="col">
+                        <img src="E:\html icon/vikas.jpg"/>
+                    </div>
+                    <div class="col">
+                        <img src="E:\html icon/vikas1.jpg"/>
+                    </div>
+                    
+                    <div class="col">
+                        <img src="E:\html icon/vikas2.jpg"/>
+                    </div>
+                    <div class="col">
+                        <img src="E:\html icon/vikas2.jpg"/>
+                    </div>
+                    
+                    </div>
+                    
+                    
+            </div>
+            <div id="contactus">
+            <div style="font-size:30px;text-align:center;">Contact <b style="color:#80c52d">US/Login</b></div>
+        <div id="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42959.159748943566!2d83.89401841302531!3d25.726212934904776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399212a65c67ad3b%3A0xe0768bb1b5a61594!2z4KSq4KSf4KS-4KSwLCDgpIngpKTgpY3gpKTgpLAg4KSq4KWN4KSw4KSm4KWH4KS2IDIzMzIyOA!5e0!3m2!1shi!2sin!4v1662269850837!5m2!1shi!2sin" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="con">
+        <input type="text" class="txt" placeholder="Name.."/><br/>
+        <input type="number" class="txt" placeholder="Mobile.."/><br/>
+        <input type="email" class="txt" placeholder="Email.."/><br/>
+        <textarea class="txta"></textarea><br/>
+        <input type="submit" class="btn" value="save"/>
+    </div>
+        </div>
+        </div>
+            <div id="ufooter">
+                <div class="a" style="color:#e8e8ff; width: 200px; padding: 60px; float: left;"> 
+                   technical skills,willingness in making
+                     an organization successfully
+                    He has done an excellent jth the Software
+                     Development & Testi\rmance has been good 
+                     and satisfactory.
+        
+        
+                </div>
+                <div class="b" style="color:#e8e8ff; width: 200px; padding: 60px; float: left;">
+                    He has done an excellent jth the Software
+                    Development & Testi\rmance has been good 
+                    and satisfactory.
+                </div>
+                <div class="c" style="color:#e8e8ff; width: 200px; padding: 60px; float: left;">
+                    He has done an excellent jth the Software
+                    Development & Testi\rmance has been good 
+                    and satisfactory.
+                </div>
+                <div class="d" style="color:#e8e8ff; width: 200px; padding: 60px; float: left;">
+                    He has done an excellent jth the Software
+                    Development & Testi\rmance has been good 
+                    and satisfactory.
+                </div>
+            </div>
+            <div id="bfooter">
+                 <b style="color:#e8e8ff;">Developed By :</b> <a href="#" class="text-light">vikas bind</a>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <b style="color:#e8e8ff;">@copyright to :</b> <a href="https://www.techpile.in" target="_blank" class="text-ocolor text-align:center;">Techpile
+                    Technology Pvt. Ltd.</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b style="color:#e8e8ff;">instagram Id :</b><a href="https://www.instagram.com/"  target="blank" class="text-ocolor"></i>itz_vikaskumar14n</a>
+                
+            </div>
+        </div>
+    </body>
+</html>
